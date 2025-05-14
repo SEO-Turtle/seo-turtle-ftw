@@ -3,138 +3,270 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Directory - Vaping Shops</title>
+    <meta name="description" content="Find the best vaping shops in your area. Browse our directory for quality vaping products, accessories, and expert advice.">
+    <meta name="keywords" content="vaping shops, vape stores, e-cigarettes, vaping products, e-liquids, vape accessories">
+    <title>Business Directory - Top Vaping Shops</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f5f5f5;
-        }
-        header {
-            background: #4CAF50;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        .content-section {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .content-section h2 {
-            color: #333;
-        }
-        .content-section p {
-            line-height: 1.6;
-            color: #555;
-        }
-        .vape-shop-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .vape-shop-list li {
-            background: #fff;
-            margin: 20px 0;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .vape-shop-list h3 {
-            margin: 0;
-            color: #4CAF50;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-    
         .banner {
-            background-color: #ffeb3b;
+            background-color: #f0f7f0;
             text-align: center;
-            padding: 20px;
-            margin: 40px 0;
-            border: 2px solid #4CAF50;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+            margin: 3rem 0;
+            border-radius: 8px;
+            border-left: 5px solid var(--primary-color);
+            box-shadow: var(--shadow);
         }
         .banner p {
             font-size: 1.2rem;
-            font-weight: bold;
-            color: #333;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin: 0;
         }
         .banner a {
-            color: #4CAF50;
+            color: var(--primary-color);
             text-decoration: none;
+            transition: var(--transition);
         }
         .banner a:hover {
-            text-decoration: underline;
+            color: var(--accent-color);
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Vaping Shops Directory</h1>
-        <p>Find the best vaping shops in your area</p>
+        <div class="container">
+            <h1>Vaping Shops Directory</h1>
+            <p>Find the best vaping shops for quality products and expert advice</p>
+        </div>
     </header>
+
     <nav>
-        <a href="index.html">Home</a>
-        <a href="accountants.html">Accountants</a>
-        <a href="lawyers.html">Lawyers</a>
-        <a href="social.html">Social</a>
-        <a href="seo.html">SEO</a>
-        <a href="vaping.html">Vaping</a>
+        <div class="container nav-container">
+            <div class="logo">Business Directory</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accountants.html">Accountants</a></li>
+                <li><a href="lawyers.html">Lawyers</a></li>
+                <li><a href="social.html">Social</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="vaping.html" class="active">Vaping</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="content-section">
-        <h2>Top Vaping Shops</h2>
-        <p>We have gathered a list of the best vaping shops to help you find quality vaping products, accessories, and expert advice. These shops are known for their extensive product range and customer satisfaction. Browse through the list below to find the perfect vaping shop for your needs.</p>
-        
-        <ul class="vape-shop-list">
-            <li>
-                <h3><a href="https://sofiavapes.com" target="_blank">Sofia Vapes</a></h3>
-                <p>Sofia Vapes offers a wide selection of vaping products, accessories, and <a href="https://sofiavapes.com" target="_blank">vape product reviews</a> to help customers make informed choices. They provide quality products and reliable customer service, making them a trusted name in the vaping community.</p>
-                <p>Website: <a href="https://sofiavapes.com" target="_blank">www.sofiavapes.com</a></p>
-            </li>
-            <li>
-                <h3>London Vape Hub</h3>
-                <p>London Vape Hub is known for its wide variety of vaping products, including e-liquids, starter kits, and accessories. Their friendly staff is always ready to help customers choose the right products for their needs.</p>
-                <p>Contact: <a href="mailto:info@londonvapehub.com">info@londonvapehub.com</a></p>
-            </li>
-            <li>
-                <h3>Cloud Chasers Vape Shop</h3>
-                <p>Cloud Chasers Vape Shop offers high-quality vaping devices and e-liquids. They have a large selection of flavors and brands, catering to both beginners and experienced vapers. Their goal is to provide the best vaping experience possible.</p>
-                <p>Contact: <a href="mailto:contact@cloudchasers.com">contact@cloudchasers.com</a></p>
-            </li>
-            <li>
-                <h3>Vape Zone London</h3>
-                <p>Vape Zone London provides a range of vaping products, including mods, tanks, and premium e-liquids. They are committed to offering quality products and excellent customer service, ensuring that customers find the perfect products for their vaping needs.</p>
-                <p>Contact: <a href="mailto:info@vapezonelondon.com">info@vapezonelondon.com</a></p>
-            </li>
-        </ul>
-    <div class="banner">
-        <p>Find out your <a href="https://mybirthstone.org" target="_blank">Monthly Birthstone</a> at My Birthstone!</p>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Quality Vaping Products</h1>
+            <p>Discover the best vaping shops offering premium products and personalized service</p>
+            <a href="#vape-shops" class="btn">Explore Shops</a>
+        </div>
     </div>
+
+    <div class="container">
+        <section class="content-section">
+            <div class="section-title">
+                <h2>Top Vaping Shops</h2>
+                <p>We have gathered a list of the best vaping shops to help you find quality vaping products, accessories, and expert advice. These shops are known for their extensive product range and customer satisfaction.</p>
+            </div>
+
+            <div id="vape-shops" class="featured-business animate-fade-in">
+                <h3>Featured Shop: Sofia Vapes</h3>
+                <div class="featured-business-content">
+                    <div class="featured-business-image">
+                        <img src="https://via.placeholder.com/400x300?text=Sofia+Vapes" alt="Sofia Vapes">
+                    </div>
+                    <div class="featured-business-details">
+                        <p>Sofia Vapes offers a wide selection of vaping products, accessories, and <a href="https://sofiavapes.com" target="_blank">vape product reviews</a> to help customers make informed choices. They provide quality products and reliable customer service, making them a trusted name in the vaping community.</p>
+                        
+                        <div class="featured-business-services">
+                            <span class="service-tag">E-Liquids</span>
+                            <span class="service-tag">Vaping Devices</span>
+                            <span class="service-tag">Starter Kits</span>
+                            <span class="service-tag">Accessories</span>
+                            <span class="service-tag">Expert Advice</span>
+                        </div>
+                        
+                        <p>Their knowledgeable staff is dedicated to helping both beginners and experienced vapers find the perfect products to suit their preferences and needs. With a commitment to quality and customer satisfaction, Sofia Vapes has established itself as a leading vaping shop.</p>
+                        
+                        <p><strong>Website:</strong> <a href="https://sofiavapes.com" target="_blank">www.sofiavapes.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <h2>Vaping Product Categories</h2>
+            </div>
+
+            <div class="seo-features animate-fade-in">
+                <div class="seo-feature">
+                    <i class="fas fa-flask"></i>
+                    <h3>E-Liquids</h3>
+                    <p>A wide variety of flavors and nicotine strengths to suit every preference and taste.</p>
+                </div>
+                <div class="seo-feature">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Vaping Devices</h3>
+                    <p>From simple pod systems to advanced mods for both beginners and experienced vapers.</p>
+                </div>
+                <div class="seo-feature">
+                    <i class="fas fa-box-open"></i>
+                    <h3>Starter Kits</h3>
+                    <p>Complete packages with everything needed to begin vaping, perfect for newcomers.</p>
+                </div>
+                <div class="seo-feature">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Accessories</h3>
+                    <p>Coils, tanks, batteries, and other essential components to enhance your vaping experience.</p>
+                </div>
+            </div>
+
+            <div class="banner animate-fade-in">
+                <p>Find out your <a href="https://mybirthstone.org" target="_blank">Monthly Birthstone</a> at My Birthstone!</p>
+            </div>
+
+            <div class="section-title">
+                <h2>Other Top Vaping Shops</h2>
+            </div>
+            <ul class="business-list">
+                <li class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3>London Vape Hub</h3>
+                        <p>London Vape Hub is known for its wide variety of vaping products, including e-liquids, starter kits, and accessories. Their friendly staff is always ready to help customers choose the right products for their needs.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:info@londonvapehub.com">info@londonvapehub.com</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3>Cloud Chasers Vape Shop</h3>
+                        <p>Cloud Chasers Vape Shop offers high-quality vaping devices and e-liquids. They have a large selection of flavors and brands, catering to both beginners and experienced vapers. Their goal is to provide the best vaping experience possible.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:contact@cloudchasers.com">contact@cloudchasers.com</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3>Vape Zone London</h3>
+                        <p>Vape Zone London provides a range of vaping products, including mods, tanks, and premium e-liquids. They are committed to offering quality products and excellent customer service, ensuring that customers find the perfect products for their vaping needs.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:info@vapezonelondon.com">info@vapezonelondon.com</a></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="section-title">
+                <h2>Choosing the Right Vaping Shop</h2>
+            </div>
+            <p>Finding the right vaping shop is essential for a satisfying vaping experience. A good vaping shop not only offers quality products but also provides valuable guidance and support, especially for those new to vaping.</p>
+            
+            <p>Here are some factors to consider when choosing a vaping shop:</p>
+            <ul style="margin-left: 2rem; margin-bottom: 2rem;">
+                <li>Product quality and variety</li>
+                <li>Staff knowledge and helpfulness</li>
+                <li>Pricing and value for money</li>
+                <li>Customer reviews and reputation</li>
+                <li>After-sales support and warranty policies</li>
+                <li>Availability of product testing before purchase</li>
+                <li>Cleanliness and organization of the shop</li>
+            </ul>
+            
+            <p>The vaping shops featured in our directory have been selected based on these criteria, ensuring that you have access to the best options available. Whether you're a beginner looking for your first vaping device or an experienced vaper seeking new products, these shops offer the quality and service you deserve.</p>
+        </section>
     </div>
+
     <footer>
-        <p>&copy; 2024 Business Directory. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Business Directory</h3>
+                    <p>Your guide to the best businesses in the industry. Find professionals in various fields to help your business grow.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accountants.html">Accountants</a></li>
+                        <li><a href="lawyers.html">Lawyers</a></li>
+                        <li><a href="social.html">Social Media</a></li>
+                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="vaping.html">Vaping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 201 Collegium Residence, Roupel 11, Paphos, 8025, Cyprus</li>
+                        <li><i class="fas fa-phone"></i> +357 94047621</li>
+                        <li><i class="fas fa-envelope"></i> info@businessdirectory.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Business Directory. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.toggle('active');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate-fade-in');
+            
+            function checkIfInView() {
+                animateElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            }
+            
+            // Set initial state for animation
+            animateElements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            });
+            
+            // Check if elements are in view on load
+            checkIfInView();
+            
+            // Check if elements are in view on scroll
+            window.addEventListener('scroll', checkIfInView);
+        });
+    </script>
 </body>
 </html>

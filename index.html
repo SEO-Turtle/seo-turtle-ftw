@@ -4,105 +4,195 @@
     <meta name="google-site-verification" content="0BXx7cMRaxOBaA5E25odb-2VkyRbkKtUtkKMlU1lh5Y" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Directory - Home</title>
+    <meta name="description" content="Your ultimate guide to finding the best businesses in various industries. Browse our directory to connect with trusted professionals.">
+    <meta name="keywords" content="business directory, professional services, SEO agencies, accountants, lawyers, social media, vaping">
+    <title>Business Directory - Find the Best Businesses in Your Area</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f5f5f5;
-        }
-        header {
-            background: #4CAF50;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        .hero {
-            background: url('https://seo-turtle-ftw.pages.dev/business-directory-banner.webp') no-repeat center center/cover;
-            height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-            text-align: center;
-        }
-        .hero h1 {
-            font-size: 3rem;
-        }
-        .content-section {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .content-section h2 {
-            color: #333;
-        }
-        .content-section p {
-            line-height: 1.6;
-            color: #555;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Business Directory</h1>
-        <p>Your guide to the best businesses in the industry</p>
+        <div class="container">
+            <h1>Business Directory</h1>
+            <p>Your guide to the best businesses in the industry</p>
+        </div>
     </header>
+
     <nav>
-        <a href="index.html">Home</a>
-        <a href="accountants.html">Accountants</a>
-        <a href="lawyers.html">Lawyers</a>
-        <a href="social.html">Social</a>
-        <a href="seo.html">SEO</a>
-        <a href="vaping.html">Vaping</a>
+        <div class="container nav-container">
+            <div class="logo">Business Directory</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="accountants.html">Accountants</a></li>
+                <li><a href="lawyers.html">Lawyers</a></li>
+                <li><a href="social.html">Social</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="vaping.html">Vaping</a></li>
+            </ul>
+        </div>
     </nav>
+
     <div class="hero">
-        <h1>Find the Best Businesses in Your Area</h1>
+        <div class="hero-content">
+            <h1>Find the Best Businesses in Your Area</h1>
+            <p>Connect with trusted professionals to help your business grow</p>
+            <a href="#categories" class="btn">Explore Categories</a>
+        </div>
     </div>
-    <div class="content-section">
-        <h2>Welcome to the Business Directory</h2>
-        <p>Welcome to our business directory, your ultimate guide to finding the best professionals in your area. Whether you need accounting services, legal advice, social media marketing, or help with search engine optimization, we are here to provide you with the best options available. Our directory is built to connect you with trusted and experienced businesses in various industries. With an easy-to-navigate structure, you can find what you need quickly and confidently.</p>
 
-        <h2>How It Works</h2>
-        <p>Our directory is organized into different categories, each representing a particular industry. Simply click on the relevant category page, and you will be presented with a list of highly recommended businesses specializing in that field. Our team has carefully vetted each business to ensure they meet the highest standards of service, so you can feel confident in your choices.</p>
+    <div class="container">
+        <section class="content-section animate-fade-in">
+            <div class="section-title">
+                <h2>Welcome to the Business Directory</h2>
+            </div>
+            <p>Welcome to our business directory, your ultimate guide to finding the best professionals in your area. Whether you need accounting services, legal advice, social media marketing, or help with search engine optimization, we are here to provide you with the best options available. Our directory is built to connect you with trusted and experienced businesses in various industries. With an easy-to-navigate structure, you can find what you need quickly and confidently.</p>
 
-        <h2>Why Choose Us?</h2>
-        <p>In a world where there are countless options available for every service, it can be overwhelming to choose the right business. We simplify this process by presenting you with only the best and most reputable options. Our team is dedicated to researching and verifying each business, so you don’t have to spend hours doing it yourself. With our directory, you can be assured of quality, trust, and reliability.</p>
+            <div class="section-title">
+                <h2>How It Works</h2>
+            </div>
+            <p>Our directory is organized into different categories, each representing a particular industry. Simply click on the relevant category page, and you will be presented with a list of highly recommended businesses specializing in that field. Our team has carefully vetted each business to ensure they meet the highest standards of service, so you can feel confident in your choices.</p>
 
-        <h2>Discover the Best in Each Industry</h2>
-        <p>On our platform, you will find the best accountants, lawyers, social media experts, and SEO specialists. Each page is dedicated to helping you find the perfect fit for your needs, with detailed information about the services offered, contact information, and customer reviews to help you make an informed decision.</p>
+            <div class="section-title">
+                <h2>Why Choose Us?</h2>
+            </div>
+            <p>In a world where there are countless options available for every service, it can be overwhelming to choose the right business. We simplify this process by presenting you with only the best and most reputable options. Our team is dedicated to researching and verifying each business, so you don't have to spend hours doing it yourself. With our directory, you can be assured of quality, trust, and reliability.</p>
 
-        <h2>Join Our Community</h2>
-        <p>Our mission is to build a community where businesses and clients can easily connect and grow together. By using our directory, you become part of a network that values quality, trust, and collaboration. If you know of a business that deserves to be featured, please reach out to us, and we will be happy to consider it for inclusion in our directory.</p>
+            <div id="categories" class="section-title">
+                <h2>Discover the Best in Each Industry</h2>
+            </div>
+            <div class="business-list">
+                <div class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3><a href="accountants.html">Accountants</a></h3>
+                        <p>Find the best accounting firms to help manage your finances, tax planning, and business advisory services.</p>
+                        <a href="accountants.html" class="btn">View Accountants</a>
+                    </div>
+                </div>
+                <div class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3><a href="lawyers.html">Lawyers</a></h3>
+                        <p>Connect with top legal professionals specializing in various areas of law to address your legal needs.</p>
+                        <a href="lawyers.html" class="btn">View Lawyers</a>
+                    </div>
+                </div>
+                <div class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3><a href="social.html">Social Media</a></h3>
+                        <p>Discover social media agencies that can help boost your online presence and engage with your audience.</p>
+                        <a href="social.html" class="btn">View Social Media Agencies</a>
+                    </div>
+                </div>
+                <div class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3><a href="seo.html">SEO</a></h3>
+                        <p>Explore SEO agencies that can improve your website's visibility and drive organic traffic to your business.</p>
+                        <a href="seo.html" class="btn">View SEO Agencies</a>
+                    </div>
+                </div>
+                <div class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3><a href="vaping.html">Vaping</a></h3>
+                        <p>Find reputable vaping businesses offering quality products and services in your area.</p>
+                        <a href="vaping.html" class="btn">View Vaping Businesses</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <h2>Join Our Community</h2>
+            </div>
+            <p>Our mission is to build a community where businesses and clients can easily connect and grow together. By using our directory, you become part of a network that values quality, trust, and collaboration. If you know of a business that deserves to be featured, please reach out to us, and we will be happy to consider it for inclusion in our directory.</p>
+        </section>
     </div>
+
     <footer>
-        <p>&copy; 2024 Business Directory. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Business Directory</h3>
+                    <p>Your guide to the best businesses in the industry. Find professionals in various fields to help your business grow.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accountants.html">Accountants</a></li>
+                        <li><a href="lawyers.html">Lawyers</a></li>
+                        <li><a href="social.html">Social Media</a></li>
+                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="vaping.html">Vaping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 201 Collegium Residence, Roupel 11, Paphos, 8025, Cyprus</li>
+                        <li><i class="fas fa-phone"></i> +357 94047621</li>
+                        <li><i class="fas fa-envelope"></i> info@businessdirectory.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Business Directory. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.toggle('active');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate-fade-in');
+            
+            function checkIfInView() {
+                animateElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            }
+            
+            // Set initial state for animation
+            animateElements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            });
+            
+            // Check if elements are in view on load
+            checkIfInView();
+            
+            // Check if elements are in view on scroll
+            window.addEventListener('scroll', checkIfInView);
+        });
+    </script>
 </body>
 </html>

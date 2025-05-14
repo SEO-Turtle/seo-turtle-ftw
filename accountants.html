@@ -3,114 +3,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Directory - Accountants</title>
+    <meta name="description" content="Find the best accountants in London to help you manage your finances, file taxes, and grow your business.">
+    <meta name="keywords" content="accountants, London accountants, tax services, financial services, bookkeeping, tax returns">
+    <title>Business Directory - Top Accountants in London</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f5f5f5;
-        }
-        header {
-            background: #4CAF50;
-            padding: 20px;
-            text-align: center;
-            color: white;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        .content-section {
-            padding: 40px 20px;
-            max-width: 1200px;
-            margin: auto;
-        }
-        .content-section h2 {
-            color: #333;
-        }
-        .content-section p {
-            line-height: 1.6;
-            color: #555;
-        }
-        .accountant-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .accountant-list li {
-            background: #fff;
-            margin: 20px 0;
-            padding: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .accountant-list h3 {
-            margin: 0;
-            color: #4CAF50;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 20px;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Accountants Directory</h1>
-        <p>Find the best accountants in London</p>
+        <div class="container">
+            <h1>Accountants Directory</h1>
+            <p>Find the best accountants to manage your finances</p>
+        </div>
     </header>
+
     <nav>
-        <a href="index.html">Home</a>
-        <a href="accountants.html">Accountants</a>
-        <a href="lawyers.html">Lawyers</a>
-        <a href="social.html">Social</a>
-        <a href="seo.html">SEO</a>
-        <a href="vaping.html">Vaping</a>
+        <div class="container nav-container">
+            <div class="logo">Business Directory</div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accountants.html" class="active">Accountants</a></li>
+                <li><a href="lawyers.html">Lawyers</a></li>
+                <li><a href="social.html">Social</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="vaping.html">Vaping</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="content-section">
-        <h2>Top Accountants in London</h2>
-        <p>We have compiled a list of the best <a href="https://iakaccountants.co.uk">accountants in London</a> to help you manage your finances, file your taxes, and grow your business. Each accountant featured here has been carefully selected based on their expertise, reliability, and positive client feedback. Browse through the list below to find the right accountant for your needs.</p>
-        
-        <ul class="accountant-list">
-            <li>
-                <h3>IAK Accountants</h3>
-                <p>IAK Accountants is a well-established firm based in London, offering a range of accounting services including bookkeeping, tax returns, and financial consulting. Known for their personalized approach and attention to detail, they have helped numerous businesses and individuals manage their finances effectively.</p>
-                <p>Contact: <a href="mailto:info@iakaccountants.com">info@iakaccountants.co.uk</a></p>
-            </li>
-            <li>
-                <h3>Smith & Co Accountants</h3>
-                <p>Smith & Co Accountants specialize in small business accounting and tax planning. With years of experience in the industry, they are dedicated to providing clients with practical advice and guidance to help grow their business.</p>
-                <p>Contact: <a href="mailto:info@smithcoaccountants.com">info@smithcoaccountants.com</a></p>
-            </li>
-            <li>
-                <h3>London Tax Solutions</h3>
-                <p>London Tax Solutions provides a comprehensive range of tax and accounting services. They offer tailored solutions for individuals, startups, and small to medium enterprises, ensuring that clients meet all their tax obligations while minimizing liabilities.</p>
-                <p>Contact: <a href="mailto:contact@londontaxsolutions.com">contact@londontaxsolutions.com</a></p>
-            </li>
-            <li>
-                <h3>Bright Financials</h3>
-                <p>Bright Financials is a London-based accounting firm that provides high-quality accounting, payroll, and advisory services. They are known for their proactive approach and for building long-lasting relationships with clients.</p>
-                <p>Contact: <a href="mailto:info@brightfinancials.com">info@brightfinancials.com</a></p>
-            </li>
-        </ul>
+
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Professional Accounting Services</h1>
+            <p>Expert financial guidance to help your business thrive</p>
+            <a href="#accountants" class="btn">Find an Accountant</a>
+        </div>
     </div>
+
+    <div class="container">
+        <section class="content-section">
+            <div class="section-title">
+                <h2>Top Accountants in London</h2>
+                <p>We have compiled a list of the best <a href="https://iakaccountants.co.uk">accountants in London</a> to help you manage your finances, file your taxes, and grow your business. Each accountant featured here has been carefully selected based on their expertise, reliability, and positive client feedback.</p>
+            </div>
+
+            <div id="accountants" class="featured-business animate-fade-in">
+                <h3>Featured Firm: IAK Accountants</h3>
+                <div class="featured-business-content">
+                    <div class="featured-business-image">
+                        <img src="https://via.placeholder.com/400x300?text=IAK+Accountants" alt="IAK Accountants">
+                    </div>
+                    <div class="featured-business-details">
+                        <p>IAK Accountants is a well-established firm based in London, offering a range of accounting services including bookkeeping, tax returns, and financial consulting. Known for their personalized approach and attention to detail, they have helped numerous businesses and individuals manage their finances effectively.</p>
+                        
+                        <div class="featured-business-services">
+                            <span class="service-tag">Bookkeeping</span>
+                            <span class="service-tag">Tax Returns</span>
+                            <span class="service-tag">Financial Consulting</span>
+                            <span class="service-tag">Business Planning</span>
+                            <span class="service-tag">Payroll Services</span>
+                        </div>
+                        
+                        <p>Their team of qualified accountants provides tailored solutions to meet the unique needs of each client, ensuring compliance with tax regulations while maximizing financial efficiency. Whether you're a small business owner, freelancer, or individual taxpayer, IAK Accountants offers the expertise you need.</p>
+                        
+                        <p><strong>Contact:</strong> <a href="mailto:info@iakaccountants.co.uk">info@iakaccountants.co.uk</a></p>
+                        <p><strong>Website:</strong> <a href="https://iakaccountants.co.uk" target="_blank">www.iakaccountants.co.uk</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <h2>Accounting Services</h2>
+            </div>
+
+            <div class="seo-features animate-fade-in">
+                <div class="seo-feature">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Bookkeeping</h3>
+                    <p>Accurate recording and organization of financial transactions to maintain clear and up-to-date accounts.</p>
+                </div>
+                <div class="seo-feature">
+                    <i class="fas fa-file-invoice"></i>
+                    <h3>Tax Planning</h3>
+                    <p>Strategic advice to minimize tax liabilities while ensuring full compliance with tax regulations.</p>
+                </div>
+                <div class="seo-feature">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Financial Analysis</h3>
+                    <p>Comprehensive analysis of financial data to provide insights for better business decisions.</p>
+                </div>
+                <div class="seo-feature">
+                    <i class="fas fa-users"></i>
+                    <h3>Payroll Services</h3>
+                    <p>Efficient management of employee payments, tax deductions, and compliance with employment regulations.</p>
+                </div>
+            </div>
+
+            <div class="section-title">
+                <h2>Other Top Accounting Firms</h2>
+            </div>
+            <ul class="business-list">
+                <li class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3>Smith & Co Accountants</h3>
+                        <p>Smith & Co Accountants specialize in small business accounting and tax planning. With years of experience in the industry, they are dedicated to providing clients with practical advice and guidance to help grow their business.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:info@smithcoaccountants.com">info@smithcoaccountants.com</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3>London Tax Solutions</h3>
+                        <p>London Tax Solutions provides a comprehensive range of tax and accounting services. They offer tailored solutions for individuals, startups, and small to medium enterprises, ensuring that clients meet all their tax obligations while minimizing liabilities.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:contact@londontaxsolutions.com">contact@londontaxsolutions.com</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="business-card animate-fade-in">
+                    <div class="business-card-content">
+                        <h3>Bright Financials</h3>
+                        <p>Bright Financials is a London-based accounting firm that provides high-quality accounting, payroll, and advisory services. They are known for their proactive approach and for building long-lasting relationships with clients.</p>
+                        <div class="contact-info">
+                            <p><i class="fas fa-envelope"></i> <a href="mailto:info@brightfinancials.com">info@brightfinancials.com</a></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="section-title">
+                <h2>Why Professional Accounting Matters</h2>
+            </div>
+            <p>Professional accounting services are essential for businesses of all sizes and individuals seeking to manage their finances effectively. Beyond basic bookkeeping and tax compliance, accountants provide valuable insights and strategic guidance that can significantly impact your financial health and business growth.</p>
+            
+            <p>Here are some key benefits of working with a professional accountant:</p>
+            <ul style="margin-left: 2rem; margin-bottom: 2rem;">
+                <li>Ensure compliance with complex and frequently changing tax laws</li>
+                <li>Identify potential tax savings and deductions you might otherwise miss</li>
+                <li>Free up your time to focus on core business activities</li>
+                <li>Gain valuable financial insights to inform business decisions</li>
+                <li>Receive expert guidance for business growth and financial planning</li>
+                <li>Avoid costly errors and penalties related to financial reporting</li>
+                <li>Access specialized knowledge for industry-specific financial challenges</li>
+            </ul>
+            
+            <p>The accounting firms featured in our directory have demonstrated excellence in providing these services to their clients. Whether you need assistance with routine bookkeeping, complex tax planning, or strategic financial advice, these professionals have the expertise to help you achieve your financial goals.</p>
+        </section>
+    </div>
+
     <footer>
-        <p>&copy; 2024 Business Directory. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Business Directory</h3>
+                    <p>Your guide to the best businesses in the industry. Find professionals in various fields to help your business grow.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="accountants.html">Accountants</a></li>
+                        <li><a href="lawyers.html">Lawyers</a></li>
+                        <li><a href="social.html">Social Media</a></li>
+                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="vaping.html">Vaping</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 201 Collegium Residence, Roupel 11, Paphos, 8025, Cyprus</li>
+                        <li><i class="fas fa-phone"></i> +357 94047621</li>
+                        <li><i class="fas fa-envelope"></i> info@businessdirectory.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Business Directory. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu').addEventListener('click', function() {
+            document.getElementById('nav-links').classList.toggle('active');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.animate-fade-in');
+            
+            function checkIfInView() {
+                animateElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                });
+            }
+            
+            // Set initial state for animation
+            animateElements.forEach(element => {
+                element.style.opacity = '0';
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
+            });
+            
+            // Check if elements are in view on load
+            checkIfInView();
+            
+            // Check if elements are in view on scroll
+            window.addEventListener('scroll', checkIfInView);
+        });
+    </script>
 </body>
 </html>
